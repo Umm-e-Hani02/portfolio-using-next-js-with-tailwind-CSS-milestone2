@@ -9,16 +9,16 @@ export default function Navbar() {
                 </div>
 
                 <ul className="flex gap-3 text-white font-semibold mt-3">
-                    <li className="hover:text-teal-600 hover:underline hover:underline-offset-4">
+                    <li className="hover:text-emerald-800 hover:underline hover:underline-offset-4">
                         <Link href="/">Home</Link>
                     </li>
-                    <li className="hover:text-teal-600 hover:underline hover:underline-offset-4">
+                    <li className="hover:text-emerald-800 hover:underline hover:underline-offset-4">
                         <Link href="/about">About</Link>
                     </li>
-                    <li className="hover:text-teal-600 hover:underline hover:underline-offset-4">
+                    <li className="hover:text-emerald-800 hover:underline hover:underline-offset-4">
                         <Link href="/projects">Projects</Link>
                     </li>
-                    <li className="hover:text-teal-600 hover:underline hover:underline-offset-4">
+                    <li className="hover:text-emerald-800 hover:underline hover:underline-offset-4">
                         <Link href="/contact">Contact</Link>
                     </li>
                 </ul>
