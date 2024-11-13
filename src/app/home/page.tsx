@@ -6,7 +6,7 @@ export default function HomeSection() {
     return (
         <section className="flex flex-col lg:flex-row min-h-screen">
 
-            <div className="bg-gradient-to-r from-teal-500 to-green-400 lg:w-[80rem]  pl-10 items-center justify-center">
+            <div className="bg-gradient-to-r from-teal-500 to-green-400 lg:w-[80rem] pl-10 items-center justify-center">
                 <p className="text-xl md:text-xl pt-24 sm:ml-24">Hello</p>
                 <h1 className="text-2xl md:text-5xl font-bold sm:ml-24">I am <span className="text">UMM-E-Hani</span></h1>
                 <p className="text-xl md:text-xl sm:ml-24">Aspiring Full Stack Developer</p>
@@ -17,10 +17,10 @@ export default function HomeSection() {
 
                 <div className="flex mt-40 gap-5 ml-24">
                     <Link href="https://www.linkedin.com/in/umm-e-hani-400b812b4" target="_blank">
-                        <FontAwesomeIcon icon={faLinkedinIn} className="h-9 w-9 text-white rounded-full border-2 border-white p-1 active:opacity-5" />
+                        <FontAwesomeIcon icon={faLinkedinIn} className="-mt-20 h-9 w-9 text-white rounded-full border-2 border-white p-1 active:opacity-5 lg:-mt-7" />
                     </Link>
                     <Link href="https://github.com/Umm-e-Hani02" target="_blank">
-                        <FontAwesomeIcon icon={faGithub} className="h-9 w-9 text-white rounded-full border-2 border-white p-1 active:opacity-5" />
+                        <FontAwesomeIcon icon={faGithub} className="-mt-20 h-9 w-9 text-white rounded-full border-2 border-white p-1 active:opacity-5 lg:-mt-7" />
                     </Link>
                 </div>
             </div>
