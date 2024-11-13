@@ -3,7 +3,7 @@ export default function About() {
         <section className="items-center justify-center flex bg-gradient-to-r from-teal-500 via-green-400 to-lime-300 min-h-screen lg:items-start">
             <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-20 md:gap-10 p-5 md:p-10"> 
                 <img 
-                    className="rounded-xl -mt-9" 
+                    className="rounded-xl md:-mt-9" 
                     height={380} 
                     width={380} 
                     src="about-img.jpg" 
