@@ -28,7 +28,7 @@ export default function HomeSection() {
             <div className="bg-gradient-to-r from-green-400 to-lime-300 lg:w-[65rem] ">
                 <img src="/pfp22.jpg" alt="Profile Picture" className="lg:h-[354px] md:w-full object-cover justify-end flex rounded-lg"/>
                 <p className="p-3">
-                    I am a passionate and dedicated aspiring Full Stack Developer, currently on an exciting journey to master the art of creating beautiful, functional, and efficient web applications. With a strong foundation in front-end and back-end technologies, I aim to build seamless digital experiences.
+                    I am a passionate and dedicated aspiring Full Stack Developer currently on an exciting journey to master the art of creating beautiful functional and efficient web applications. With a strong foundation in front-end and back-end technologies I aim to build seamless digital experiences.
                 </p>
                 <Link href="https://hackathon-milestones1-2-journey.vercel.app/" target="_blank">
                     <button className="text-sm m-3 md:h-12 border-2 md:w-36 p-1 text-center active:opacity-5">VIEW RESUME</button>
