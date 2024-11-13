@@ -11,7 +11,7 @@ export default function Projects(){
             </div>
 
             <div className="flex flex-wrap grid-cols-1 md:grid-cols-2 md:gap-3 lg:grid-cols-3 p-4 mt-10 gap-y-5 justify-center items-center">
-                <div className="h-64 w-96 bg-teal-600 p-3 rounded-tr-3xl rounded-bl-3xl">
+                <div className="h-72 sm:h-64 w-96 bg-teal-600 p-3 rounded-tr-3xl rounded-bl-3xl">
                 <FontAwesomeIcon icon={faCalculator} className="h-10 justify-center"/>
                     <h1 className="text-amber-400 text-2xl my-3 font-bold text-start">
                     CLI Calculator
@@ -25,7 +25,7 @@ export default function Projects(){
                     </button>
                 </div>
 
-                <div className="h-64 w-96 bg-teal-600 p-3 rounded-tr-3xl rounded-bl-3xl">
+                <div className="h-72 sm:h-64 w-96 bg-teal-600 p-3 rounded-tr-3xl rounded-bl-3xl">
                 {<FontAwesomeIcon icon={faGamepad} className="h-10 justify-center"/>}
                     <h1 className="text-amber-400 text-2xl my-3 font-bold text-start">
                     CLI Number Guessing Game
@@ -39,7 +39,7 @@ export default function Projects(){
                     </button>
                 </div>
 
-                <div className="h-64 w-96 bg-teal-600 p-3 rounded-tr-3xl rounded-bl-3xl">
+                <div className="h-72 sm:h-64 w-96 bg-teal-600 p-3 rounded-tr-3xl rounded-bl-3xl">
                 {<FontAwesomeIcon icon={faCamera} className="h-10 justify-center"/>}
                     <h1 className="text-amber-400 text-2xl my-3 font-bold text-start">
                     Photography Website
