@@ -7,7 +7,7 @@ export default function Projects(){
         <section className="bg-gradient-to-r from-teal-500 via-green-400 to-lime-300 h-full">
 
             <div className="text-center justify-center items-center">
-                <h1 className="text-center text-3xl font-bold">My Work</h1>
+                <h1 className="text-center text-3xl font-bold text-emerald-900">My Work</h1>
             </div>
 
             <div className="flex flex-wrap grid-cols-1 md:grid-cols-2 md:gap-3 lg:grid-cols-3 p-4 mt-10 gap-y-5 justify-center items-center">
